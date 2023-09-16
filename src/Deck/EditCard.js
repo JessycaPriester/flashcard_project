@@ -83,6 +83,7 @@ function EditCard() {
         <h2>Edit Card {card.id}</h2>
         <form onSubmit={handleSubmit}>
             <Form onFrontStateChange={handleFrontChildStateChange} onBackStateChange={handleBackChildStateChange} frontText={front} backText={back}/>
+            <br />
             <button type="button" onClick={cancelHandler}>Cancel</button>
             <button type="submit">Save</button>
         </form>

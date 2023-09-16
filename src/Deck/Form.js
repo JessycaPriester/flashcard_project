@@ -25,6 +25,7 @@ function Form({onFrontStateChange, onBackStateChange, frontText, backText}) {
                 Front
                 <textarea type="text" id="test" name="test" value={frontText} onChange={handelChangeFront}/>
             </label>
+            <br />
             <label>
                 Back
                 <textarea type="text" id="test" name="test" value ={backText} onChange={handelChangeBack}/>

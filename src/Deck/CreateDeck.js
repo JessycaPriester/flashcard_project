@@ -41,10 +41,12 @@ function CreateDeck(decksLength) {
                     Name
                     <input type="text" id="name" name="name" onChange={handleNameChange} />
                 </label>
+                <br />
                 <label htmlFor="Description">
                     Description
                     <textarea type="text" id="description" name="description" onChange={handleDescriptionChange}/>
                 </label>
+                <br />
                 <button type="button" onClick={cancelHandler}>Cancel</button>
                 <button type="submit">Submit</button>
             </form>

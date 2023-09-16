@@ -64,6 +64,7 @@ function CreateCard() {
                 <h2>{deck.name}: Add Card</h2>
                 <form onSubmit={handleSubmit}>
                     <Form onFrontStateChange={handleFrontChildStateChange} onBackStateChange={handleBackChildStateChange}/>
+                    <br />
                     <button type="button" onClick={doneHandler}>Done</button>
                     <button type="submit">Save</button>
                 </form>
